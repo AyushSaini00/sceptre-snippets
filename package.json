@@ -1,0 +1,38 @@
+{
+  "name": "sceptre-snippets",
+  "displayName": "sceptre snippets",
+  "description": "code snippets for sceptre",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "keywords": [
+    "Nunjucks",
+    "Nunjucks Snippets"
+  ],
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+    "contributes": {
+    "snippets": [
+      {
+        "language": "nunjucks",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "nj",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "njk", 
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "author": "Ayush Saini"
+}
